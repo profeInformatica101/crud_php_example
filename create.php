@@ -39,6 +39,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <label for="nombre">Nombre:</label>
     <input type="text" name="nombre" id="nombre" required>
     <br>
+    <label for="nombre">Autor:</label>
+    <input type="text" name="autor" id="autor" required>
+    <br>
     <label for="descripcion">Descripción:</label>
     <textarea name="descripcion" id="descripcion"></textarea>
     <br>

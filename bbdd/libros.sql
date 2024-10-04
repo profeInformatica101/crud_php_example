@@ -1,13 +1,13 @@
 CREATE DATABASE libreria;
 
-USE libreria /*tienda*/;
-CREATE TABLE libros /*jabones*/(
+USE libreria;
+CREATE TABLE libros(
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,
-    autor VARCHAR(255) NOT NULL,
+    autor VARCHAR(255),
     descripcion TEXT,
     precio DECIMAL(10, 2) NOT NULL,
-    stock INT NOT NULL
+    stock INT NOT NULL,
 );
 
 INSERT INTO libros (nombre, autor, descripcion, precio, stock) VALUES

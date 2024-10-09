@@ -6,9 +6,9 @@ CREATE TABLE libros(
     nombre VARCHAR(255) NOT NULL,
     descripcion TEXT,
     precio DECIMAL(10,2) NOT NULL,
-    stock INT NOT NULL,
+    stock INT NOT NULL
     
-)
+);
 
 INSERT INTO libros(nombre,descripcion,precio,stock) VALUES
 ('Luna de Plutón', 'Libro de ciencia ficción',22.50 ,30),
